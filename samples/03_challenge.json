@@ -1,0 +1,235 @@
+{
+  "chapter": 1,
+  "description": "재료를 조합해 모든 단말기를 복구하세요.",
+  "format": "debug-rush-stage",
+  "generation_difficulty": 2,
+  "name": "생성 8008 · 도전",
+  "objects": [
+    {
+      "kind": "spawn",
+      "pos": [
+        432,
+        368
+      ]
+    },
+    {
+      "kind": "bench",
+      "pos": [
+        432,
+        240
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 0,
+      "pos": [
+        192.0,
+        64.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 1,
+      "pos": [
+        672.0,
+        64.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 2,
+      "pos": [
+        672.0,
+        448.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 3,
+      "pos": [
+        192.0,
+        448.0
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          7
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "pos": [
+        64,
+        160
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          4
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "pos": [
+        800,
+        336
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          5
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "pos": [
+        800,
+        160
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          7
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "pos": [
+        64,
+        336
+      ]
+    },
+    {
+      "interval": 2.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "ring",
+      "pos": [
+        336,
+        112
+      ],
+      "shots": 10,
+      "speed": 180,
+      "spread": 12.0
+    },
+    {
+      "interval": 2.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "fan",
+      "pos": [
+        608,
+        304
+      ],
+      "shots": 7,
+      "speed": 180,
+      "spread": 12.0
+    },
+    {
+      "interval": 2.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "fan",
+      "pos": [
+        336,
+        448
+      ],
+      "shots": 7,
+      "speed": 180,
+      "spread": 12.0
+    },
+    {
+      "interval": 2.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "ring",
+      "pos": [
+        544,
+        112
+      ],
+      "shots": 10,
+      "speed": 180,
+      "spread": 12.0
+    },
+    {
+      "kind": "wall",
+      "pos": [
+        688,
+        240
+      ]
+    },
+    {
+      "kind": "wall",
+      "pos": [
+        528,
+        416
+      ]
+    },
+    {
+      "kind": "wall",
+      "pos": [
+        688,
+        336
+      ]
+    },
+    {
+      "kind": "background",
+      "module": "deco_grate",
+      "pos": [
+        80,
+        64
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_grate",
+      "pos": [
+        800,
+        64
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_warning",
+      "pos": [
+        80,
+        448
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_light",
+      "pos": [
+        800,
+        448
+      ],
+      "rotation": 0
+    }
+  ],
+  "seed": 8008,
+  "time_limit": 180,
+  "version": 1
+}

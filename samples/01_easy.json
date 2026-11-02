@@ -1,0 +1,146 @@
+{
+  "chapter": 1,
+  "description": "재료를 조합해 모든 단말기를 복구하세요.",
+  "format": "debug-rush-stage",
+  "generation_difficulty": 0,
+  "name": "생성 1001 · 입문",
+  "objects": [
+    {
+      "kind": "spawn",
+      "pos": [
+        432,
+        368
+      ]
+    },
+    {
+      "kind": "bench",
+      "pos": [
+        432,
+        240
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 0,
+      "pos": [
+        192.0,
+        448.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 1,
+      "pos": [
+        192.0,
+        64.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 2,
+      "pos": [
+        672.0,
+        448.0
+      ]
+    },
+    {
+      "kind": "source",
+      "material": 3,
+      "pos": [
+        672.0,
+        64.0
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          5
+        ]
+      ],
+      "pos": [
+        64,
+        160
+      ]
+    },
+    {
+      "kind": "terminal",
+      "orders": [
+        [
+          10
+        ]
+      ],
+      "pos": [
+        800,
+        336
+      ]
+    },
+    {
+      "interval": 3.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "aim",
+      "pos": [
+        336,
+        112
+      ],
+      "shots": 3,
+      "speed": 110,
+      "spread": 12.0
+    },
+    {
+      "interval": 3.0,
+      "kind": "bug",
+      "move_radius": 0.0,
+      "parry": true,
+      "pattern": "aim",
+      "pos": [
+        608,
+        304
+      ],
+      "shots": 3,
+      "speed": 110,
+      "spread": 12.0
+    },
+    {
+      "kind": "background",
+      "module": "deco_warning",
+      "pos": [
+        80,
+        64
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_grate",
+      "pos": [
+        800,
+        64
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_vent",
+      "pos": [
+        80,
+        448
+      ],
+      "rotation": 0
+    },
+    {
+      "kind": "background",
+      "module": "deco_grate",
+      "pos": [
+        800,
+        448
+      ],
+      "rotation": 0
+    }
+  ],
+  "seed": 1001,
+  "time_limit": 220,
+  "version": 1
+}
